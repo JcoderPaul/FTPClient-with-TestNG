@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FTPClientTest suite">
+    <test name="Jsonconverter test">
+        <classes>
+            <class name="ConsoleFTPclientTests.jsonconvertertest.RightConverterTest"/>
+            <class name="ConsoleFTPclientTests.jsonconvertertest.WrongConverterTest"/>
+        </classes>
+    </test>
+    <!--Enter your parameters to connect to the server-->
+    <!--Введите ваши параметры для соединения с FTP сервером-->
+    <parameter name="ip"  value="111.111.1.11"/>
+    <parameter name="user"  value="yourlogin"/>
+    <parameter name="pass"  value="yourpass"/>
+    <test name="Services test">
+        <classes>
+            <class name="ConsoleFTPclientTests.services.BaseReadWriteTest"/>
+            <class name="ConsoleFTPclientTests.services.FTPConnectorTest"/>
+            <class name="ConsoleFTPclientTests.services.FTPConnectorMethodsTest"/>
+            <class name="ConsoleFTPclientTests.services.NotFTPServerConnectionTest"/>
+        </classes>
+    </test>
+</suite>
