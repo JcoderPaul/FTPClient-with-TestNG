@@ -50,8 +50,13 @@
 - id студента уникален.
 
 Результат предоставить в виде архива с исходными кодами и/или ссылкой на репозиторий github, где должен быть размещен(ы) проект(ы). В архиве также должны находиться:
-1. исполняемый jar-файл клиента (в данном репозитории отсутствует)
-2. инструкция по сборке проекта
-3. инструкция по работе с приложением 
-4. исполняемый jar-файл автотестов (в данном репозитории отсутствует)
-5. инструкция по запуску тестов и кратким обоснованием тестов. (в данном репозитории отсутствует)
+1. исполняемый jar-файл клиента (в данном репозитории отсутствует);
+2. [инструкция по сборке проекта](https://github.com/JcoderPaul/FTPClient-with-TestNG/blob/master/DOC/Instructions/Project_assembly_instructions.txt);
+3. [инструкция по работе с приложением](https://github.com/JcoderPaul/FTPClient-with-TestNG/blob/master/DOC/Instructions/Application_instructions.txt); 
+4. исполняемый jar-файл автотестов (в данном репозитории отсутствует);
+5. инструкция по запуску тестов и кратким обоснованием тестов. (в данном репозитории отсутствует);
+
+Документация:
+- [Описание режимов работы FTP сервер-клиент](https://github.com/JcoderPaul/FTPClient-with-TestNG/blob/master/DOC/FTP_Handbook/FTP_operating_modes.txt);
+- [Список кодов ответов FTP сервера](https://github.com/JcoderPaul/FTPClient-with-TestNG/blob/master/DOC/FTP_Handbook/FTP_response_codes.txt);
+- [Основные команды FTP протокола](https://github.com/JcoderPaul/FTPClient-with-TestNG/blob/master/DOC/FTP_Handbook/ShortList_FTP_commands.txt);
